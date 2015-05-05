@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Tutti History-->
@@ -65,7 +64,7 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutti1" translatesAutoresizingMaskIntoConstraints="NO" id="YjG-1f-Kgn">
                                         <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="51" y="228" width="280" height="191"/>
+                                            <rect key="frame" x="67" y="228" width="280" height="191"/>
                                         </variation>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mze-xD-i8r" userLabel="Label2">
@@ -82,7 +81,7 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutti3" translatesAutoresizingMaskIntoConstraints="NO" id="46B-uA-0yT">
                                         <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="67" y="539" width="285" height="192"/>
+                                            <rect key="frame" x="65" y="539" width="285" height="192"/>
                                         </variation>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fU6-lJ-ahZ">
@@ -95,12 +94,6 @@
                                             <rect key="frame" x="62" y="739" width="285" height="172"/>
                                         </variation>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paper" translatesAutoresizingMaskIntoConstraints="NO" id="oHE-wa-0bb">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="67" y="893" width="280" height="196"/>
-                                        </variation>
-                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dH3-Kw-CY1">
                                         <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                         <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="15"/>
@@ -118,7 +111,13 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutti2" translatesAutoresizingMaskIntoConstraints="NO" id="KfR-oW-g5k">
                                         <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="67" y="1167" width="280" height="196"/>
+                                            <rect key="frame" x="59" y="1173" width="280" height="196"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paper" translatesAutoresizingMaskIntoConstraints="NO" id="oHE-wa-0bb">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="67" y="898" width="280" height="196"/>
                                         </variation>
                                     </imageView>
                                 </subviews>
@@ -130,9 +129,9 @@
                                         <exclude reference="mze-xD-i8r"/>
                                         <exclude reference="46B-uA-0yT"/>
                                         <exclude reference="fU6-lJ-ahZ"/>
-                                        <exclude reference="oHE-wa-0bb"/>
                                         <exclude reference="dH3-Kw-CY1"/>
                                         <exclude reference="KfR-oW-g5k"/>
+                                        <exclude reference="oHE-wa-0bb"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
@@ -144,9 +143,9 @@
                                         <include reference="mze-xD-i8r"/>
                                         <include reference="46B-uA-0yT"/>
                                         <include reference="fU6-lJ-ahZ"/>
-                                        <include reference="oHE-wa-0bb"/>
                                         <include reference="dH3-Kw-CY1"/>
                                         <include reference="KfR-oW-g5k"/>
+                                        <include reference="oHE-wa-0bb"/>
                                     </mask>
                                 </variation>
                             </scrollView>
@@ -856,7 +855,7 @@
             </objects>
             <point key="canvasLocation" x="3784.5" y="-425.25"/>
         </scene>
-        <!--Doces-->
+        <!--Candies-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController storyboardIdentifier="Doces" id="8rJ-Kc-sve" customClass="Doces" customModule="TuttiDoces" customModuleProvider="target" sceneMemberID="viewController">
@@ -867,63 +866,15 @@
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="d7N-5m-LIm">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="E93-jV-SFZ">
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="E93-jV-SFZ" id="4BZ-Uc-ZMV">
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="d7N-5m-LIm" firstAttribute="top" secondItem="QS5-Rx-YEW" secondAttribute="topMargin" id="F2x-TE-o86"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="d7N-5m-LIm" secondAttribute="trailing" id="s6L-86-h0b">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-16"/>
-                            </constraint>
-                            <constraint firstItem="d7N-5m-LIm" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="sob-xX-xeo">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-16"/>
-                            </constraint>
-                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="d7N-5m-LIm" secondAttribute="bottom" id="yFc-JF-MtV"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="d7N-5m-LIm"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="F2x-TE-o86"/>
-                                <exclude reference="s6L-86-h0b"/>
-                                <exclude reference="sob-xX-xeo"/>
-                                <exclude reference="yFc-JF-MtV"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="d7N-5m-LIm"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="F2x-TE-o86"/>
-                                <include reference="s6L-86-h0b"/>
-                                <include reference="sob-xX-xeo"/>
-                                <include reference="yFc-JF-MtV"/>
-                            </mask>
-                        </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Doces" image="docesIcon" id="cPa-gy-q4n"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
-                    <connections>
-                        <outlet property="tableView" destination="d7N-5m-LIm" id="PaG-4F-bsV"/>
-                    </connections>
+                    <tabBarItem key="tabBarItem" title="Candies" image="docesIcon" id="cPa-gy-q4n"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="1100"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="45" y="369"/>
+            <point key="canvasLocation" x="45" y="513"/>
         </scene>
         <!--Map-->
         <scene sceneID="Jnu-hg-Tz8">
@@ -995,7 +946,7 @@
                                     </mask>
                                 </variation>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ola. Aqui vai um texto bem legal. Ola aqui eh tum texto bem legal" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YB6-mc-WRE">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ola. Aqui vai um texto bem legal. Ola aqui eh tum texto bem legal" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YB6-mc-WRE">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.90980392160000001" green="0.77647058820000003" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

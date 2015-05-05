@@ -77,9 +77,9 @@ class Map: UIViewController , MKMapViewDelegate {
         
         
         
-        let ta1 = TuttiAnnotation(title: "PUC-Rio", subtitle: "Where to find TuttiDoces daily", coordinate: CLLocationCoordinate2D(latitude: pucLocation.coordinate.latitude , longitude: pucLocation.coordinate.longitude), image: UIImage(named: "pucImage")!, extraInfo: " The Pontifical Catholic University of Rio de Janeiro...Colocar um texto legal aqui")
+        let ta1 = TuttiAnnotation(title: "PUC-Rio", subtitle: "Where to find TuttiDoces daily", coordinate: CLLocationCoordinate2D(latitude: pucLocation.coordinate.latitude , longitude: pucLocation.coordinate.longitude), image: UIImage(named: "pucImage")!, extraInfo: " The Pontifical Catholic University of Rio de Janeiro.s a very good college and is where Amanda Aurita started sell TuttiDoces")
         
-         let ta2 = TuttiAnnotation(title: "Freguesia", subtitle: "Where TuttiDoces born", coordinate: CLLocationCoordinate2D(latitude: freguesiaLocation.coordinate.latitude , longitude: freguesiaLocation.coordinate.longitude), image: UIImage(named: "freguesiaImage")!, extraInfo: "Colocar um texto legal aqui")
+         let ta2 = TuttiAnnotation(title: "Freguesia", subtitle: "Where TuttiDoces born", coordinate: CLLocationCoordinate2D(latitude: freguesiaLocation.coordinate.latitude , longitude: freguesiaLocation.coordinate.longitude), image: UIImage(named: "freguesiaImage")!, extraInfo: "Freguesia is located in jacarepagua. It is a quiet and nice neighborhood. With Tutti Doces gets even better")
         
         
         self.map.addAnnotation(ta1)

@@ -11,7 +11,7 @@ import Foundation
 import MapKit
 import MessageUI
 
-class TuttiFirst: UIViewController {
+class TuttiFirst: UIViewController, UIAlertViewDelegate {
 
     
     @IBOutlet weak var topImage: UIImageView!  //Inicial Screen
@@ -55,57 +55,46 @@ class TuttiFirst: UIViewController {
 
     @IBAction func celOptions(sender: AnyObject) {
         
-        var tel: String = "tel: 55 21 987306920"
+        var cel: String = "+55 21 987306920"
+        var tel: String = "5521987306920"
         
-        var alert = UIAlertController(title: tel, message: "Talk with TuttiDoces", preferredStyle: UIAlertControllerStyle.Alert)
-        alert.addAction(UIAlertAction(title: "Call", style: UIAlertActionStyle.Default, handler: nil))
-        alert.addAction(UIAlertAction(title: "Send Message", style: UIAlertActionStyle.Default , handler: nil))
-        alert.addAction(UIAlertAction(title: "Copy Number", style: UIAlertActionStyle.Default , handler: nil))
-        self.presentViewController(alert, animated: true, completion: nil)
-        
-        
-        
-        
-        /*
-        //21 988 26 - 61 83
-        if( alertaNum == 3 ){
-            if (buttonIndex == 0) {
-                //Botão Cancelar
-            }
-            else if (buttonIndex == 1) {
-                //Botão Ligar
-                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:21988266183"]];
-            }
-            else if (buttonIndex == 2) {
-                //Botão Copiar número
-                UIPasteboard *pb = [UIPasteboard generalPasteboard];
-                [pb setString:@"21988266183"];
-            }
-            else if (buttonIndex == 3) {
-                //Botão Enviar mensagem
-                [self showSMS:@"21988266183"];*/
-        
-    }
-    
-    func alertFunc(alertView: UIAlertView!, clickedButtonAtIndex buttonIndex: Int){
-        
-        var tel: String = "tel:995531689"
-        
-        if(buttonIndex == 0) //Call Button
-        {
-            var url: NSURL = NSURL(string: tel)!
+        var alert = UIAlertController(title: cel, message: "Talk with TuttiDoces", preferredStyle: UIAlertControllerStyle.Alert)
+
+        let callAction = UIAlertAction(title: "Call", style: UIAlertActionStyle.Default, handler: {
+            (action) in
+            var url: NSURL = NSURL(string: "tel://+\(tel)")!
             UIApplication.sharedApplication().openURL(url)
-            println("Entrou aqui")
-        }
-        if(buttonIndex == 1) //Send Message Button
-        {
-            self
             
-        }
-        if(buttonIndex == 2)//
-        {
+        })
+        
+        /*let sendSMSAction = UIAlertAction(title: "Send Message", style: UIAlertActionStyle.Default, handler: {
+            (action) in
+            //inserir codigo
+        })*/
+        
+        let copyCellAction = UIAlertAction(title: "Copy Number", style: UIAlertActionStyle.Default, handler: {
+            (action) in
             UIPasteboard.generalPasteboard().string = tel
-        }
+        })
+        
+        let cancelCellAction = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Default, handler: {
+            (action) in
+            self.dismissViewControllerAnimated(false, completion: nil)
+        })
+        
+        
+        
+        
+        
+        alert.addAction(callAction)
+        //alert.addAction(sendSMSAction)
+        alert.addAction(copyCellAction)
+        alert.addAction(cancelCellAction)
+        
+        self.presentViewController(alert, animated: true, completion: {
+           println("Call function started")
+        })
+        
     }
     
     func configuredMessageComposeViewController(){
