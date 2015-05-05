@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F545D731AF83D870085D1EE /* TuttiDesign in Resources */ = {isa = PBXBuildFile; fileRef = 3F545D721AF83D870085D1EE /* TuttiDesign */; };
+		3F545D751AF84FF20085D1EE /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F545D741AF84FF20085D1EE /* AppIcon.png */; };
 		3F84DE741AF805BE0003152A /* TuttiAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84DE731AF805BE0003152A /* TuttiAnnotation.swift */; };
 		3F84DE761AF80C710003152A /* AnnotationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84DE751AF80C710003152A /* AnnotationInfo.swift */; };
 		3F84DE781AF80EF80003152A /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84DE771AF80EF80003152A /* Map.swift */; };
@@ -31,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F545D721AF83D870085D1EE /* TuttiDesign */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TuttiDesign; sourceTree = "<group>"; };
+		3F545D741AF84FF20085D1EE /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
 		3F84DE731AF805BE0003152A /* TuttiAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuttiAnnotation.swift; sourceTree = "<group>"; };
 		3F84DE751AF80C710003152A /* AnnotationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationInfo.swift; sourceTree = "<group>"; };
 		3F84DE771AF80EF80003152A /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 				3FBF938E1AF17BD100E80678 /* Doces.swift */,
 				3FBF93901AF17BD100E80678 /* Main.storyboard */,
 				3FBF93931AF17BD100E80678 /* Images.xcassets */,
+				3F545D741AF84FF20085D1EE /* AppIcon.png */,
+				3F545D721AF83D870085D1EE /* TuttiDesign */,
 				3FBF93951AF17BD100E80678 /* LaunchScreen.xib */,
 				3FBF93881AF17BD100E80678 /* Supporting Files */,
 			);
@@ -207,9 +213,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F545D751AF84FF20085D1EE /* AppIcon.png in Resources */,
 				3FBF93921AF17BD100E80678 /* Main.storyboard in Resources */,
 				3FBF93971AF17BD100E80678 /* LaunchScreen.xib in Resources */,
 				3FBF93941AF17BD100E80678 /* Images.xcassets in Resources */,
+				3F545D731AF83D870085D1EE /* TuttiDesign in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +370,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TuttiDoces/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -373,6 +382,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TuttiDoces/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
