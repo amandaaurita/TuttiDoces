@@ -10,7 +10,8 @@ import UIKit
 
 class Doces: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    var tableView: UITableView!
+    @IBOutlet weak var tableView: UITableView!
+//    var tableView: UITableView!
     var items: [String] = ["Travel", "Dance", "Food"]
     
     
@@ -18,15 +19,19 @@ class Doces: UIViewController, UITableViewDelegate, UITableViewDataSource {
         super.viewDidLoad()
         
         //creating the table view
-        tableView = UITableView(frame: CGRectMake(0, 0, view.frame.width, view.frame.height));
-        tableView.separatorInset = UIEdgeInsetsZero;
-        view.addSubview(tableView);
+        //tableView = UITableView(frame: CGRectMake(0, 0, view.frame.width, view.frame.height));
+//        tableView = UITableView(frame: view.frame);
+
+//        tableView.separatorInset = UIEdgeInsetsZero;
+        //tableView.separatorStyle = UITableViewCellSeparatorStyle.None;
+      //  view.addSubview(tableView);
         
-        tableView.delegate = self
-        tableView.dataSource = self
+      //  tableView.delegate = self
+        //tableView.dataSource = self
         
         //changing the tab bar item color
-        tabBarController?.tabBar.tintColor = UIColorFromRGB(0xE8C6CD)
+        tabBarController?.tabBar.tintColor = UIColorFromRGB(0x673C2C)
+
         
     }
     
@@ -45,7 +50,8 @@ class Doces: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         
-        return view.frame.height/3;
+//        return view.frame.height/3;
+        return 80
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -53,7 +59,8 @@ class Doces: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         var cell:UITableViewCell = UITableViewCell(frame: view.frame);
         
-        var imageView : UIImageView = UIImageView(frame: CGRectMake(0, 80, view.frame.width, cell.frame.height));
+        var imageView : UIImageView = UIImageView(frame: CGRectMake(0, 0, view.frame.width, cell.frame.height));
+        imageView.clipsToBounds = false
         
         
         
@@ -63,12 +70,12 @@ class Doces: UIViewController, UITableViewDelegate, UITableViewDataSource {
         }
         else if(indexPath.row == 1)
         {
-            imageView.image = (image: UIImage(named: "tutti2"))
+            imageView.image = (image: UIImage(named: "tutti1"))
             
         }
         else if(indexPath.row == 2)
         {
-            imageView.image = (image: UIImage(named: "tutti13"))
+            imageView.image = (image: UIImage(named: "tutti1"))
         }
         
         

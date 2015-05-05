@@ -23,6 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navigationBarAppearace.tintColor = UIColorFromRGB(0xffffff)
         navigationBarAppearace.barTintColor = UIColorFromRGB(0xFEE0CA)
         
+      
+
+        
         
         return true
     }

@@ -12,12 +12,17 @@ class TuttiHistory: UIViewController {
 
     @IBOutlet weak var scroll: UIScrollView!
     
+    @IBOutlet weak var image: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         scroll.contentSize.height = 2200
+        
+        view.frame.size.width = UIScreen.mainScreen().bounds.width
 
         navigationController?.navigationBarHidden = false
+    
     }
 
     override func didReceiveMemoryWarning() {

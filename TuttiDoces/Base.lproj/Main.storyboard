@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Tutti History-->
@@ -13,105 +14,139 @@
                         <viewControllerLayoutGuide type="bottom" id="eIo-Se-co4"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="e6a-FS-rCj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1400"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oQJ-07-aXB">
+                            <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AFx-1e-8GP" userLabel="SubView">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aem-tr-6iz">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="210" y="1105" width="42" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zde-eI-s1t">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="218" y="775" width="42" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mze-xD-i8r">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="57" y="763" width="42" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCQ-oP-vvc">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="271" y="1000" width="42" height="21"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0dB-UP-vjG">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <mutableString key="text">In July, 2013 Amanda Aurita, a Information System student from PUC-Rio, was invited to spend two months abroad. In order to raise the money, she decided to sell sweets in college, since they were already a success at family parties.
-The sales were increasing, so she decided to create a fidelity card to keep her costumers and attract more people. That`s when TuttiDoces officially started.
-Nowadays, she not only sells candy daily, but takes orders for bigger events and is well known among PUC students, which led TuttiDoces and Amanda to be a part of a PUC newspaper report about entrepreneurship.</mutableString>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="51" y="105" width="320" height="243"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="History" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isF-1y-H89">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="51" y="55" width="55" height="29"/>
-                                        </variation>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="History" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8o-jY-gTo">
-                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutti3" translatesAutoresizingMaskIntoConstraints="NO" id="YjG-1f-Kgn">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fundoPadrao.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mw5-Q3-Bc1">
                                         <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="87" y="417" width="240" height="168"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="632"/>
                                         </variation>
                                     </imageView>
                                 </subviews>
                                 <variation key="default">
                                     <mask key="subviews">
-                                        <exclude reference="Aem-tr-6iz"/>
-                                        <exclude reference="Zde-eI-s1t"/>
-                                        <exclude reference="mze-xD-i8r"/>
-                                        <exclude reference="hCQ-oP-vvc"/>
-                                        <exclude reference="0dB-UP-vjG"/>
-                                        <exclude reference="isF-1y-H89"/>
-                                        <exclude reference="I8o-jY-gTo"/>
-                                        <exclude reference="YjG-1f-Kgn"/>
+                                        <exclude reference="Mw5-Q3-Bc1"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="64" width="414" height="1279"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="632"/>
                                     <mask key="subviews">
-                                        <include reference="Aem-tr-6iz"/>
-                                        <include reference="Zde-eI-s1t"/>
-                                        <include reference="mze-xD-i8r"/>
-                                        <include reference="hCQ-oP-vvc"/>
-                                        <include reference="0dB-UP-vjG"/>
+                                        <include reference="Mw5-Q3-Bc1"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oQJ-07-aXB">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="History" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isF-1y-H89" userLabel="Title">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="22"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.87843137250000003" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="176" y="38" width="67" height="42"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="283" translatesAutoresizingMaskIntoConstraints="NO" id="0dB-UP-vjG" userLabel="Label1">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <string key="text">In July, 2013 Amanda Aurita, a Information System student from PUC-Rio, was invited to spend two months abroad. In order to raise the money, she decided to sell sweets in college, since they were already a success at family parties.
+</string>
+                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="15"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.87843137250000003" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="67" y="78" width="280" height="142"/>
+                                        </variation>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutti1" translatesAutoresizingMaskIntoConstraints="NO" id="YjG-1f-Kgn">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="51" y="228" width="280" height="191"/>
+                                        </variation>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mze-xD-i8r" userLabel="Label2">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <string key="text">The sales were increasing, so she decided to create a fidelity card to keep her costumers and attract more people. That`s when TuttiDoces officially started.
+</string>
+                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="15"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.87843137250000003" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="51" y="454" width="296" height="99"/>
+                                        </variation>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutti3" translatesAutoresizingMaskIntoConstraints="NO" id="46B-uA-0yT">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="67" y="539" width="285" height="192"/>
+                                        </variation>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fU6-lJ-ahZ">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <string key="text">Nowadays, she not only sells candy daily, but takes orders for bigger events and is well known among PUC students, which led TuttiDoces and Amanda to be a part of a PUC newspaper report about entrepreneurship.</string>
+                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="15"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.87843137250000003" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="62" y="739" width="285" height="172"/>
+                                        </variation>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paper" translatesAutoresizingMaskIntoConstraints="NO" id="oHE-wa-0bb">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="67" y="893" width="280" height="196"/>
+                                        </variation>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dH3-Kw-CY1">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="15"/>
+                                        <state key="normal" title="Read News">
+                                            <color key="titleColor" red="0.99607843139999996" green="0.87843137250000003" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="164" y="1091" width="79" height="30"/>
+                                        </variation>
+                                        <connections>
+                                            <segue destination="bt6-ue-OOT" kind="show" id="Rut-ec-2Lr"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutti2" translatesAutoresizingMaskIntoConstraints="NO" id="KfR-oW-g5k">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="67" y="1167" width="280" height="196"/>
+                                        </variation>
+                                    </imageView>
+                                </subviews>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="isF-1y-H89"/>
+                                        <exclude reference="0dB-UP-vjG"/>
+                                        <exclude reference="YjG-1f-Kgn"/>
+                                        <exclude reference="mze-xD-i8r"/>
+                                        <exclude reference="46B-uA-0yT"/>
+                                        <exclude reference="fU6-lJ-ahZ"/>
+                                        <exclude reference="oHE-wa-0bb"/>
+                                        <exclude reference="dH3-Kw-CY1"/>
+                                        <exclude reference="KfR-oW-g5k"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="414" height="1377"/>
+                                    <mask key="subviews">
                                         <include reference="isF-1y-H89"/>
-                                        <exclude reference="I8o-jY-gTo"/>
+                                        <include reference="0dB-UP-vjG"/>
                                         <include reference="YjG-1f-Kgn"/>
+                                        <include reference="mze-xD-i8r"/>
+                                        <include reference="46B-uA-0yT"/>
+                                        <include reference="fU6-lJ-ahZ"/>
+                                        <include reference="oHE-wa-0bb"/>
+                                        <include reference="dH3-Kw-CY1"/>
+                                        <include reference="KfR-oW-g5k"/>
                                     </mask>
                                 </variation>
                             </scrollView>
@@ -119,25 +154,68 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
+                                <exclude reference="AFx-1e-8GP"/>
                                 <exclude reference="oQJ-07-aXB"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
+                                <include reference="AFx-1e-8GP"/>
                                 <include reference="oQJ-07-aXB"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="gyd-Oa-4jm"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="414" height="1400"/>
+                    <size key="freeformSize" width="400" height="1500"/>
                     <connections>
                         <outlet property="scroll" destination="oQJ-07-aXB" id="Y1q-Z1-odi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nEK-ob-V9d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3108" y="-1233"/>
+            <point key="canvasLocation" x="2971.5" y="-1233"/>
+        </scene>
+        <!--Tutti News-->
+        <scene sceneID="sWP-Zf-Ozi">
+            <objects>
+                <viewController id="bt6-ue-OOT" customClass="TuttiNews" customModule="TuttiDoces" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QCU-W6-WXI"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ocm-Zj-EGf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="k88-Ij-l0U">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4HC-Hc-eXa">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="400" height="736"/>
+                                </variation>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="4HC-Hc-eXa"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="4HC-Hc-eXa"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="396" height="850"/>
+                    <connections>
+                        <outlet property="webV" destination="4HC-Hc-eXa" id="chI-FN-xow"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="itt-zI-JCy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3838.5" y="-1233"/>
         </scene>
         <!--Tutti First-->
         <scene sceneID="hNz-n2-bh7">
@@ -163,8 +241,7 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                                         <exclude reference="lz0-ue-cT7"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="64" width="409" height="693"/>
+                                <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="WlO-BP-jEv"/>
                                         <exclude reference="lz0-ue-cT7"/>
@@ -202,8 +279,7 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                                         <exclude reference="low-FY-4Q8"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="-14" y="211" width="348" height="180"/>
+                                <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="SUm-W8-qk2"/>
                                         <exclude reference="low-FY-4Q8"/>
@@ -531,6 +607,7 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                             <constraint firstAttribute="centerX" secondItem="qGm-aJ-hbb" secondAttribute="centerX" id="BYA-LC-5qf">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-105"/>
                             </constraint>
+                            <constraint firstItem="Eg5-We-J38" firstAttribute="centerX" secondItem="4zL-Hc-KGp" secondAttribute="centerX" constant="-44.5" id="Cu6-BE-OPd"/>
                             <constraint firstAttribute="centerY" secondItem="4zL-Hc-KGp" secondAttribute="centerY" id="G59-dj-EVJ">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-126.5"/>
                             </constraint>
@@ -538,6 +615,7 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                                 <variation key="heightClass=regular-widthClass=compact" constant="104.5"/>
                             </constraint>
                             <constraint firstAttribute="centerX" secondItem="Eg5-We-J38" secondAttribute="centerX" id="JP6-Qj-lah"/>
+                            <constraint firstItem="Eg5-We-J38" firstAttribute="centerY" secondItem="4zL-Hc-KGp" secondAttribute="centerY" constant="-300.5" id="LhT-j2-KJa"/>
                             <constraint firstAttribute="centerY" secondItem="Wvg-40-J9N" secondAttribute="centerY" id="MzG-e9-MSh">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-195"/>
                             </constraint>
@@ -545,7 +623,7 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                                 <variation key="heightClass=regular-widthClass=compact" constant="-17"/>
                             </constraint>
                             <constraint firstAttribute="centerY" secondItem="qGm-aJ-hbb" secondAttribute="centerY" id="Poe-2y-tS5">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-205"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="-196"/>
                             </constraint>
                             <constraint firstAttribute="centerX" secondItem="Wvg-40-J9N" secondAttribute="centerX" id="QOa-nx-qeI">
                                 <variation key="heightClass=regular-widthClass=compact" constant="124"/>
@@ -614,7 +692,7 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                                 <variation key="heightClass=regular-widthClass=compact" constant="-18"/>
                             </constraint>
                             <constraint firstAttribute="centerY" secondItem="os1-6j-gh1" secondAttribute="centerY" id="xwN-2B-70v">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-178.5"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="-170.5"/>
                             </constraint>
                             <constraint firstAttribute="centerY" secondItem="Kml-uM-ha7" secondAttribute="centerY" id="y4C-jk-kq8">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-150"/>
@@ -633,21 +711,19 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                                 <exclude reference="clx-1U-y0r"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="G59-dj-EVJ"/>
-                                <exclude reference="YB0-Eu-B7s"/>
                                 <exclude reference="1NW-3X-0pc"/>
                                 <exclude reference="h6v-gI-nXn"/>
                                 <exclude reference="hPJ-3r-rge"/>
                                 <exclude reference="qyB-8y-ew6"/>
                                 <exclude reference="y8L-XW-6ZX"/>
+                                <exclude reference="Cu6-BE-OPd"/>
                                 <exclude reference="JP6-Qj-lah"/>
+                                <exclude reference="LhT-j2-KJa"/>
                                 <exclude reference="gJN-6J-Ma3"/>
                                 <exclude reference="i4h-yO-VaX"/>
                                 <exclude reference="mrc-KL-KvL"/>
                                 <exclude reference="H4Y-hd-LdC"/>
                                 <exclude reference="mh3-Xa-RjA"/>
-                                <exclude reference="OEv-mx-9o4"/>
-                                <exclude reference="aRV-b1-0LJ"/>
                                 <exclude reference="bT8-PG-A2q"/>
                                 <exclude reference="dPf-RP-QkL"/>
                                 <exclude reference="VgJ-93-mmF"/>
@@ -672,6 +748,10 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                                 <exclude reference="xwN-2B-70v"/>
                                 <exclude reference="BYA-LC-5qf"/>
                                 <exclude reference="Poe-2y-tS5"/>
+                                <exclude reference="G59-dj-EVJ"/>
+                                <exclude reference="YB0-Eu-B7s"/>
+                                <exclude reference="OEv-mx-9o4"/>
+                                <exclude reference="aRV-b1-0LJ"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -694,21 +774,19 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                                 <include reference="clx-1U-y0r"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="G59-dj-EVJ"/>
-                                <include reference="YB0-Eu-B7s"/>
                                 <include reference="1NW-3X-0pc"/>
                                 <include reference="h6v-gI-nXn"/>
                                 <include reference="hPJ-3r-rge"/>
                                 <include reference="qyB-8y-ew6"/>
                                 <include reference="y8L-XW-6ZX"/>
+                                <include reference="Cu6-BE-OPd"/>
                                 <include reference="JP6-Qj-lah"/>
+                                <include reference="LhT-j2-KJa"/>
                                 <include reference="gJN-6J-Ma3"/>
                                 <include reference="i4h-yO-VaX"/>
                                 <include reference="mrc-KL-KvL"/>
                                 <include reference="H4Y-hd-LdC"/>
                                 <include reference="mh3-Xa-RjA"/>
-                                <include reference="OEv-mx-9o4"/>
-                                <include reference="aRV-b1-0LJ"/>
                                 <include reference="bT8-PG-A2q"/>
                                 <include reference="dPf-RP-QkL"/>
                                 <include reference="VgJ-93-mmF"/>
@@ -733,6 +811,10 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                                 <include reference="xwN-2B-70v"/>
                                 <include reference="BYA-LC-5qf"/>
                                 <include reference="Poe-2y-tS5"/>
+                                <include reference="G59-dj-EVJ"/>
+                                <include reference="YB0-Eu-B7s"/>
+                                <include reference="OEv-mx-9o4"/>
+                                <include reference="aRV-b1-0LJ"/>
                             </mask>
                         </variation>
                     </view>
@@ -785,10 +867,59 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="d7N-5m-LIm">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="E93-jV-SFZ">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="E93-jV-SFZ" id="4BZ-Uc-ZMV">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="d7N-5m-LIm" firstAttribute="top" secondItem="QS5-Rx-YEW" secondAttribute="topMargin" id="F2x-TE-o86"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="d7N-5m-LIm" secondAttribute="trailing" id="s6L-86-h0b">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-16"/>
+                            </constraint>
+                            <constraint firstItem="d7N-5m-LIm" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="sob-xX-xeo">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-16"/>
+                            </constraint>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="d7N-5m-LIm" secondAttribute="bottom" id="yFc-JF-MtV"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="d7N-5m-LIm"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="F2x-TE-o86"/>
+                                <exclude reference="s6L-86-h0b"/>
+                                <exclude reference="sob-xX-xeo"/>
+                                <exclude reference="yFc-JF-MtV"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="d7N-5m-LIm"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="F2x-TE-o86"/>
+                                <include reference="s6L-86-h0b"/>
+                                <include reference="sob-xX-xeo"/>
+                                <include reference="yFc-JF-MtV"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Doces" image="docesIcon" id="cPa-gy-q4n"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="tableView" destination="d7N-5m-LIm" id="PaG-4F-bsV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -848,33 +979,70 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ola. Aqui vai um texto bem legal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YB6-mc-WRE">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5df-9a-SUH">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="313" id="Ais-SX-D5Q"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Ais-SX-D5Q"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="Ais-SX-D5Q"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ola. Aqui vai um texto bem legal. Ola aqui eh tum texto bem legal" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YB6-mc-WRE">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.90980392160000001" green="0.77647058820000003" blue="0.80392156859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="63" y="482" width="249" height="98"/>
-                                </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5df-9a-SUH">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="7" y="80" width="400" height="347"/>
-                                </variation>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YB6-mc-WRE" firstAttribute="leading" secondItem="L9L-e1-Obt" secondAttribute="leading" constant="16" id="JEx-Wf-KQb"/>
+                            <constraint firstItem="xVC-oE-lMS" firstAttribute="top" secondItem="YB6-mc-WRE" secondAttribute="bottom" constant="116" id="MFp-Vh-nc5"/>
+                            <constraint firstItem="xVC-oE-lMS" firstAttribute="top" secondItem="5df-9a-SUH" secondAttribute="bottom" constant="294" id="RSq-hV-gzm"/>
+                            <constraint firstAttribute="trailing" secondItem="YB6-mc-WRE" secondAttribute="trailing" constant="16" id="XDF-vy-zVs"/>
+                            <constraint firstItem="5df-9a-SUH" firstAttribute="top" secondItem="HkK-H8-TXQ" secondAttribute="bottom" constant="16" id="YiF-Wm-xvD"/>
+                            <constraint firstAttribute="trailing" secondItem="5df-9a-SUH" secondAttribute="trailing" constant="11" id="eqU-Pv-dJk"/>
+                            <constraint firstItem="YB6-mc-WRE" firstAttribute="top" secondItem="HkK-H8-TXQ" secondAttribute="bottom" constant="360" id="gvv-5K-bRe"/>
+                            <constraint firstItem="5df-9a-SUH" firstAttribute="leading" secondItem="L9L-e1-Obt" secondAttribute="leading" constant="12" id="wed-bR-FI4"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="YB6-mc-WRE"/>
                                 <exclude reference="5df-9a-SUH"/>
+                                <exclude reference="YB6-mc-WRE"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="YiF-Wm-xvD"/>
+                                <exclude reference="eqU-Pv-dJk"/>
+                                <exclude reference="wed-bR-FI4"/>
+                                <exclude reference="JEx-Wf-KQb"/>
+                                <exclude reference="XDF-vy-zVs"/>
+                                <exclude reference="gvv-5K-bRe"/>
+                                <exclude reference="MFp-Vh-nc5"/>
+                                <exclude reference="RSq-hV-gzm"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="YB6-mc-WRE"/>
                                 <include reference="5df-9a-SUH"/>
+                                <include reference="YB6-mc-WRE"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="YiF-Wm-xvD"/>
+                                <include reference="eqU-Pv-dJk"/>
+                                <include reference="wed-bR-FI4"/>
+                                <include reference="JEx-Wf-KQb"/>
+                                <include reference="XDF-vy-zVs"/>
+                                <include reference="gvv-5K-bRe"/>
+                                <include reference="MFp-Vh-nc5"/>
+                                <include reference="RSq-hV-gzm"/>
                             </mask>
                         </variation>
                     </view>
@@ -979,7 +1147,7 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0XO-TU-5UV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2607" y="-425.25"/>
+            <point key="canvasLocation" x="2169" y="-488.25"/>
         </scene>
     </scenes>
     <resources>
@@ -991,7 +1159,10 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
         <image name="imagemFundoMain.png" width="1683" height="1074"/>
         <image name="linhas.png" width="1539" height="243"/>
         <image name="logo.png" width="658" height="438"/>
+        <image name="paper" width="2009" height="1001"/>
         <image name="profile1" width="28" height="28"/>
+        <image name="tutti1" width="2400" height="2400"/>
+        <image name="tutti2" width="2400" height="2400"/>
         <image name="tutti3" width="2400" height="2400"/>
     </resources>
 </document>

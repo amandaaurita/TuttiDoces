@@ -10,6 +10,7 @@
 		3F545D731AF83D870085D1EE /* TuttiDesign in Resources */ = {isa = PBXBuildFile; fileRef = 3F545D721AF83D870085D1EE /* TuttiDesign */; };
 		3F545D751AF84FF20085D1EE /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F545D741AF84FF20085D1EE /* AppIcon.png */; };
 		3F5F9B001AF85F820033C97E /* TuttiFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F9AFF1AF85F820033C97E /* TuttiFace.swift */; };
+		3F5F9B021AF8F5010033C97E /* TuttiNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F9B011AF8F5010033C97E /* TuttiNews.swift */; };
 		3F84DE741AF805BE0003152A /* TuttiAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84DE731AF805BE0003152A /* TuttiAnnotation.swift */; };
 		3F84DE761AF80C710003152A /* AnnotationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84DE751AF80C710003152A /* AnnotationInfo.swift */; };
 		3F84DE781AF80EF80003152A /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84DE771AF80EF80003152A /* Map.swift */; };
@@ -37,6 +38,7 @@
 		3F545D721AF83D870085D1EE /* TuttiDesign */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TuttiDesign; sourceTree = "<group>"; };
 		3F545D741AF84FF20085D1EE /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
 		3F5F9AFF1AF85F820033C97E /* TuttiFace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuttiFace.swift; sourceTree = "<group>"; };
+		3F5F9B011AF8F5010033C97E /* TuttiNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuttiNews.swift; sourceTree = "<group>"; };
 		3F84DE731AF805BE0003152A /* TuttiAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuttiAnnotation.swift; sourceTree = "<group>"; };
 		3F84DE751AF80C710003152A /* AnnotationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationInfo.swift; sourceTree = "<group>"; };
 		3F84DE771AF80EF80003152A /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				3FBF938C1AF17BD100E80678 /* TuttiFirst.swift */,
+				3F5F9B011AF8F5010033C97E /* TuttiNews.swift */,
 				3F84DE791AF8239A0003152A /* TuttiHistory.swift */,
 				3F5F9AFF1AF85F820033C97E /* TuttiFace.swift */,
 				3F84DE771AF80EF80003152A /* Map.swift */,
@@ -268,6 +271,7 @@
 				3F5F9B001AF85F820033C97E /* TuttiFace.swift in Sources */,
 				3F84DE7A1AF8239A0003152A /* TuttiHistory.swift in Sources */,
 				3FBF938B1AF17BD100E80678 /* AppDelegate.swift in Sources */,
+				3F5F9B021AF8F5010033C97E /* TuttiNews.swift in Sources */,
 				3F84DE781AF80EF80003152A /* Map.swift in Sources */,
 				3FBF938D1AF17BD100E80678 /* TuttiFirst.swift in Sources */,
 			);
