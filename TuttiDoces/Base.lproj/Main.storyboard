@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
@@ -16,63 +16,133 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0dB-UP-vjG">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <string key="text">The sales were increasing, so she decided to create a fidelity card to keep her costumers and attract more people. That`s when TuttiDoces officially started.
-Nowadays, she not only sells candy daily, but takes orders for bigger events and is well known among PUC students, which led TuttiDoces and Amanda to be a part of a PUC newspaper report about entrepreneurship.
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="29" y="71" width="354" height="211"/>
-                                </variation>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutti3" translatesAutoresizingMaskIntoConstraints="NO" id="YjG-1f-Kgn">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oQJ-07-aXB">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="88" y="414" width="240" height="168"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aem-tr-6iz">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="210" y="1105" width="42" height="21"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zde-eI-s1t">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="218" y="775" width="42" height="21"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mze-xD-i8r">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="57" y="763" width="42" height="21"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCQ-oP-vvc">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="271" y="1000" width="42" height="21"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0dB-UP-vjG">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <mutableString key="text">In July, 2013 Amanda Aurita, a Information System student from PUC-Rio, was invited to spend two months abroad. In order to raise the money, she decided to sell sweets in college, since they were already a success at family parties.
+The sales were increasing, so she decided to create a fidelity card to keep her costumers and attract more people. That`s when TuttiDoces officially started.
+Nowadays, she not only sells candy daily, but takes orders for bigger events and is well known among PUC students, which led TuttiDoces and Amanda to be a part of a PUC newspaper report about entrepreneurship.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="51" y="105" width="320" height="243"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="History" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isF-1y-H89">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="51" y="55" width="55" height="29"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="History" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8o-jY-gTo">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutti3" translatesAutoresizingMaskIntoConstraints="NO" id="YjG-1f-Kgn">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="87" y="417" width="240" height="168"/>
+                                        </variation>
+                                    </imageView>
+                                </subviews>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="Aem-tr-6iz"/>
+                                        <exclude reference="Zde-eI-s1t"/>
+                                        <exclude reference="mze-xD-i8r"/>
+                                        <exclude reference="hCQ-oP-vvc"/>
+                                        <exclude reference="0dB-UP-vjG"/>
+                                        <exclude reference="isF-1y-H89"/>
+                                        <exclude reference="I8o-jY-gTo"/>
+                                        <exclude reference="YjG-1f-Kgn"/>
+                                    </mask>
                                 </variation>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LyE-B1-vkW">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <string key="text">In July, 2013 Amanda Aurita, a Information System student from PUC-Rio, was invited to spend two months abroad. In order to raise the money, she decided to sell sweets in college, since they were already a success at family parties.
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="-27" y="277" width="1791" height="21"/>
+                                    <rect key="frame" x="0.0" y="64" width="414" height="1279"/>
+                                    <mask key="subviews">
+                                        <include reference="Aem-tr-6iz"/>
+                                        <include reference="Zde-eI-s1t"/>
+                                        <include reference="mze-xD-i8r"/>
+                                        <include reference="hCQ-oP-vvc"/>
+                                        <include reference="0dB-UP-vjG"/>
+                                        <include reference="isF-1y-H89"/>
+                                        <exclude reference="I8o-jY-gTo"/>
+                                        <include reference="YjG-1f-Kgn"/>
+                                    </mask>
                                 </variation>
-                            </label>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="0dB-UP-vjG"/>
-                                <exclude reference="YjG-1f-Kgn"/>
-                                <exclude reference="LyE-B1-vkW"/>
+                                <exclude reference="oQJ-07-aXB"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="0dB-UP-vjG"/>
-                                <include reference="YjG-1f-Kgn"/>
-                                <include reference="LyE-B1-vkW"/>
+                                <include reference="oQJ-07-aXB"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="gyd-Oa-4jm"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="1400"/>
+                    <connections>
+                        <outlet property="scroll" destination="oQJ-07-aXB" id="Y1q-Z1-odi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nEK-ob-V9d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3108" y="-1233"/>
         </scene>
-        <!--Tutti-->
+        <!--Tutti First-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController storyboardIdentifier="Tutti" id="9pv-A4-QxB" customClass="Tutti" customModule="TuttiDoces" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Tutti" id="9pv-A4-QxB" customClass="TuttiFirst" customModule="TuttiDoces" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -93,10 +163,11 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                                         <exclude reference="lz0-ue-cT7"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="64" width="409" height="693"/>
                                     <mask key="constraints">
                                         <include reference="WlO-BP-jEv"/>
-                                        <include reference="lz0-ue-cT7"/>
+                                        <exclude reference="lz0-ue-cT7"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -115,7 +186,7 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="O5n-CW-NWC"/>
-                                        <include reference="VaL-cz-cMK"/>
+                                        <exclude reference="VaL-cz-cMK"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -131,10 +202,11 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                                         <exclude reference="low-FY-4Q8"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="-14" y="211" width="348" height="180"/>
                                     <mask key="constraints">
                                         <include reference="SUm-W8-qk2"/>
-                                        <include reference="low-FY-4Q8"/>
+                                        <exclude reference="low-FY-4Q8"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -320,7 +392,7 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <segue destination="u4Z-RU-CsX" kind="show" id="gom-BT-zPK"/>
+                                    <segue destination="ZAj-DH-9sP" kind="show" id="gom-BT-zPK"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="querotuttidoces" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X2X-ks-wY9">
@@ -443,6 +515,7 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="ZhA-iV-fMN" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" constant="-23" id="1NW-3X-0pc"/>
                             <constraint firstAttribute="centerY" secondItem="XHd-zk-xle" secondAttribute="centerY" id="688-fG-5nf">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-68"/>
                             </constraint>
@@ -506,6 +579,7 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                             <constraint firstAttribute="centerY" secondItem="Eg5-We-J38" secondAttribute="centerY" id="gJN-6J-Ma3">
                                 <variation key="heightClass=regular-widthClass=compact" constant="174"/>
                             </constraint>
+                            <constraint firstAttribute="trailing" secondItem="ZhA-iV-fMN" secondAttribute="trailing" id="h6v-gI-nXn"/>
                             <constraint firstAttribute="centerX" secondItem="Kml-uM-ha7" secondAttribute="centerX" id="hHN-5y-Gyx">
                                 <variation key="heightClass=regular-widthClass=compact" constant="37"/>
                             </constraint>
@@ -545,6 +619,7 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                             <constraint firstAttribute="centerY" secondItem="Kml-uM-ha7" secondAttribute="centerY" id="y4C-jk-kq8">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-150"/>
                             </constraint>
+                            <constraint firstItem="ZhA-iV-fMN" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="y8L-XW-6ZX"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -560,8 +635,11 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                             <mask key="constraints">
                                 <exclude reference="G59-dj-EVJ"/>
                                 <exclude reference="YB0-Eu-B7s"/>
+                                <exclude reference="1NW-3X-0pc"/>
+                                <exclude reference="h6v-gI-nXn"/>
                                 <exclude reference="hPJ-3r-rge"/>
                                 <exclude reference="qyB-8y-ew6"/>
+                                <exclude reference="y8L-XW-6ZX"/>
                                 <exclude reference="JP6-Qj-lah"/>
                                 <exclude reference="gJN-6J-Ma3"/>
                                 <exclude reference="i4h-yO-VaX"/>
@@ -618,8 +696,11 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                             <mask key="constraints">
                                 <include reference="G59-dj-EVJ"/>
                                 <include reference="YB0-Eu-B7s"/>
+                                <include reference="1NW-3X-0pc"/>
+                                <include reference="h6v-gI-nXn"/>
                                 <include reference="hPJ-3r-rge"/>
                                 <include reference="qyB-8y-ew6"/>
+                                <include reference="y8L-XW-6ZX"/>
                                 <include reference="JP6-Qj-lah"/>
                                 <include reference="gJN-6J-Ma3"/>
                                 <include reference="i4h-yO-VaX"/>
@@ -661,10 +742,10 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
             </objects>
             <point key="canvasLocation" x="1474.5" y="-541.5"/>
         </scene>
-        <!--Item-->
+        <!--Tutti Face-->
         <scene sceneID="zMk-eL-LxA">
             <objects>
-                <viewController id="u4Z-RU-CsX" customClass="Tutti" customModule="TuttiDoces" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="u4Z-RU-CsX" customClass="TuttiFace" customModule="TuttiDoces" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zTy-J9-OM9"/>
                         <viewControllerLayoutGuide type="bottom" id="DMB-wP-mOA"/>
@@ -683,15 +764,15 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="1GK-br-rvc"/>
+                    <navigationItem key="navigationItem" id="RVP-lo-rcl"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <outlet property="webV" destination="Tyr-Yl-Vpc" id="CLV-vL-6MU"/>
+                        <outlet property="webV" destination="Tyr-Yl-Vpc" id="xzC-yT-0q3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q2Y-SJ-6vN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2616" y="-525"/>
+            <point key="canvasLocation" x="3784.5" y="-425.25"/>
         </scene>
         <!--Doces-->
         <scene sceneID="wg7-f3-ORb">
@@ -711,7 +792,7 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-75" y="987"/>
+            <point key="canvasLocation" x="45" y="369"/>
         </scene>
         <!--Map-->
         <scene sceneID="Jnu-hg-Tz8">
@@ -753,7 +834,7 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oWq-KQ-tuT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3276" y="360"/>
+            <point key="canvasLocation" x="2694" y="171"/>
         </scene>
         <!--Annotation Info-->
         <scene sceneID="7FU-vY-gWj">
@@ -804,7 +885,7 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="it1-XF-58R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4060.5" y="360"/>
+            <point key="canvasLocation" x="3562.5" y="171"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -824,7 +905,7 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-75" y="-55.5"/>
+            <point key="canvasLocation" x="45" y="-274.5"/>
         </scene>
         <!--The Tutti-->
         <scene sceneID="Mbd-Vr-gKG">
@@ -861,7 +942,7 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PkI-6l-qj3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2358" y="360"/>
+            <point key="canvasLocation" x="1464" y="108"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Cxl-NQ-HRi">
@@ -880,6 +961,25 @@ Nowadays, she not only sells candy daily, but takes orders for bigger events and
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MEg-Zz-vtS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2169" y="-1233"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="Mi0-oM-Obd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZAj-DH-9sP" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="1GK-br-rvc"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mXn-bo-lyD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="u4Z-RU-CsX" kind="relationship" relationship="rootViewController" id="kVK-AP-JCb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0XO-TU-5UV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2607" y="-425.25"/>
         </scene>
     </scenes>
     <resources>

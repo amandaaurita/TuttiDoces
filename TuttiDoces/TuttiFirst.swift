@@ -9,25 +9,21 @@
 import UIKit
 import MapKit
 
-class Tutti: UIViewController {
+class TuttiFirst: UIViewController {
 
-    @IBOutlet weak var webV: UIWebView!         //Face Screen
-    @IBOutlet weak var topImage: UIImageView!  //Inicial Screen
     
-    var pageName = "https://www.facebook.com/querotuttidoces"
+    @IBOutlet weak var topImage: UIImageView!  //Inicial Screen
+   
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //self.map.delegate! = self
+       
         navigationController?.navigationBarHidden = true;
-        tabBarController?.tabBar.tintColor = UIColorFromRGB(0xE8C6CD)
+        tabBarController?.tabBar.tintColor = UIColorFromRGB(0xFEE0CA)
         
-        loadWeb()
-        
-    
     }
 
     override func didReceiveMemoryWarning() {
@@ -43,15 +39,7 @@ class Tutti: UIViewController {
             alpha: CGFloat(1.0)
         )
     }
-    
-    func loadWeb()
-    {
-       // var url = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("pageName", ofType: "html")!)
-       // let requestURL = NSURL(string:urlPath)
-       // var request = NSURLRequest(URL: url)
-        //webV.loadRequest(request)
-        
-    }
+   
      override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
     
@@ -65,6 +53,10 @@ class Tutti: UIViewController {
   
 
     @IBAction func celOptions(sender: AnyObject) {
+        
+        var tel: String = "tel:21987306920"
+        var url: NSURL = NSURL(string: tel)!
+        UIApplication.sharedApplication().openURL(url)
         
     }
 }

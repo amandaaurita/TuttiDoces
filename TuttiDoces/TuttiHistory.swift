@@ -10,10 +10,14 @@ import UIKit
 
 class TuttiHistory: UIViewController {
 
+    @IBOutlet weak var scroll: UIScrollView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        scroll.contentSize.height = 2200
 
-        // Do any additional setup after loading the view.
+        navigationController?.navigationBarHidden = false
     }
 
     override func didReceiveMemoryWarning() {

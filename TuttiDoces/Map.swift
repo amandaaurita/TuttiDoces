@@ -77,14 +77,10 @@ class Map: UIViewController , MKMapViewDelegate {
         
         
         
-        //let coordinateRegionPUC = MKCoordinateRegionMakeWithDistance(pucLocation.coordinate, 1000,1000)
-        //self.map.setRegion(coordinateRegionPUC, animated: true)
-        //let coordinateRegionFRG = MKCoordinateRegionMakeWithDistance(freguesiaLocation.coordinate, 1000,1000)
-        //self.map.setRegion(coordinateRegionFRG, animated: true)
+        let ta1 = TuttiAnnotation(title: "PUC-Rio", subtitle: "Where to find TuttiDoces daily", coordinate: CLLocationCoordinate2D(latitude: pucLocation.coordinate.latitude , longitude: pucLocation.coordinate.longitude), image: UIImage(named: "pucImage")!, extraInfo: " The Pontifical Catholic University of Rio de Janeiro...Colocar um texto legal aqui")
         
-        let ta1 = TuttiAnnotation(title: "Pontificia", subtitle: "BlaBlaBla", coordinate: CLLocationCoordinate2D(latitude: pucLocation.coordinate.latitude , longitude: pucLocation.coordinate.longitude), image: UIImage(named: "pucImage")!, extraInfo: "Aqui ela vende doces diariamente")
+         let ta2 = TuttiAnnotation(title: "Freguesia", subtitle: "Where TuttiDoces born", coordinate: CLLocationCoordinate2D(latitude: freguesiaLocation.coordinate.latitude , longitude: freguesiaLocation.coordinate.longitude), image: UIImage(named: "freguesiaImage")!, extraInfo: "Colocar um texto legal aqui")
         
-         let ta2 = TuttiAnnotation(title: "Pontificia", subtitle: "BlaBlaBla", coordinate: CLLocationCoordinate2D(latitude: freguesiaLocation.coordinate.latitude , longitude: freguesiaLocation.coordinate.longitude), image: UIImage(named: "pucImage")!, extraInfo: "Aqui ela vende doces diariamente")
         
         self.map.addAnnotation(ta1)
         self.map.addAnnotation(ta2)

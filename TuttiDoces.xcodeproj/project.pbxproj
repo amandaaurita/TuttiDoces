@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		3F545D731AF83D870085D1EE /* TuttiDesign in Resources */ = {isa = PBXBuildFile; fileRef = 3F545D721AF83D870085D1EE /* TuttiDesign */; };
 		3F545D751AF84FF20085D1EE /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F545D741AF84FF20085D1EE /* AppIcon.png */; };
+		3F5F9B001AF85F820033C97E /* TuttiFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F9AFF1AF85F820033C97E /* TuttiFace.swift */; };
 		3F84DE741AF805BE0003152A /* TuttiAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84DE731AF805BE0003152A /* TuttiAnnotation.swift */; };
 		3F84DE761AF80C710003152A /* AnnotationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84DE751AF80C710003152A /* AnnotationInfo.swift */; };
 		3F84DE781AF80EF80003152A /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84DE771AF80EF80003152A /* Map.swift */; };
 		3F84DE7A1AF8239A0003152A /* TuttiHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84DE791AF8239A0003152A /* TuttiHistory.swift */; };
 		3FBF938B1AF17BD100E80678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF938A1AF17BD100E80678 /* AppDelegate.swift */; };
-		3FBF938D1AF17BD100E80678 /* Tutti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF938C1AF17BD100E80678 /* Tutti.swift */; };
+		3FBF938D1AF17BD100E80678 /* TuttiFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF938C1AF17BD100E80678 /* TuttiFirst.swift */; };
 		3FBF938F1AF17BD100E80678 /* Doces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF938E1AF17BD100E80678 /* Doces.swift */; };
 		3FBF93921AF17BD100E80678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBF93901AF17BD100E80678 /* Main.storyboard */; };
 		3FBF93941AF17BD100E80678 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBF93931AF17BD100E80678 /* Images.xcassets */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		3F545D721AF83D870085D1EE /* TuttiDesign */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TuttiDesign; sourceTree = "<group>"; };
 		3F545D741AF84FF20085D1EE /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		3F5F9AFF1AF85F820033C97E /* TuttiFace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuttiFace.swift; sourceTree = "<group>"; };
 		3F84DE731AF805BE0003152A /* TuttiAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuttiAnnotation.swift; sourceTree = "<group>"; };
 		3F84DE751AF80C710003152A /* AnnotationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationInfo.swift; sourceTree = "<group>"; };
 		3F84DE771AF80EF80003152A /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
@@ -42,7 +44,7 @@
 		3FBF93851AF17BD100E80678 /* TuttiDoces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuttiDoces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBF93891AF17BD100E80678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FBF938A1AF17BD100E80678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FBF938C1AF17BD100E80678 /* Tutti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutti.swift; sourceTree = "<group>"; };
+		3FBF938C1AF17BD100E80678 /* TuttiFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuttiFirst.swift; sourceTree = "<group>"; };
 		3FBF938E1AF17BD100E80678 /* Doces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doces.swift; sourceTree = "<group>"; };
 		3FBF93911AF17BD100E80678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FBF93931AF17BD100E80678 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -70,6 +72,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F5F9AFC1AF85F160033C97E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F84DE731AF805BE0003152A /* TuttiAnnotation.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3F5F9AFD1AF85F270033C97E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF93901AF17BD100E80678 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3F5F9AFE1AF85F3C0033C97E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF938C1AF17BD100E80678 /* TuttiFirst.swift */,
+				3F84DE791AF8239A0003152A /* TuttiHistory.swift */,
+				3F5F9AFF1AF85F820033C97E /* TuttiFace.swift */,
+				3F84DE771AF80EF80003152A /* Map.swift */,
+				3F84DE751AF80C710003152A /* AnnotationInfo.swift */,
+				3FBF938E1AF17BD100E80678 /* Doces.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		3FBF937C1AF17BD100E80678 = {
 			isa = PBXGroup;
 			children = (
@@ -92,13 +123,9 @@
 			isa = PBXGroup;
 			children = (
 				3FBF938A1AF17BD100E80678 /* AppDelegate.swift */,
-				3F84DE791AF8239A0003152A /* TuttiHistory.swift */,
-				3FBF938C1AF17BD100E80678 /* Tutti.swift */,
-				3F84DE771AF80EF80003152A /* Map.swift */,
-				3F84DE731AF805BE0003152A /* TuttiAnnotation.swift */,
-				3F84DE751AF80C710003152A /* AnnotationInfo.swift */,
-				3FBF938E1AF17BD100E80678 /* Doces.swift */,
-				3FBF93901AF17BD100E80678 /* Main.storyboard */,
+				3F5F9AFE1AF85F3C0033C97E /* Controller */,
+				3F5F9AFD1AF85F270033C97E /* View */,
+				3F5F9AFC1AF85F160033C97E /* Model */,
 				3FBF93931AF17BD100E80678 /* Images.xcassets */,
 				3F545D741AF84FF20085D1EE /* AppIcon.png */,
 				3F545D721AF83D870085D1EE /* TuttiDesign */,
@@ -238,10 +265,11 @@
 				3F84DE761AF80C710003152A /* AnnotationInfo.swift in Sources */,
 				3FBF938F1AF17BD100E80678 /* Doces.swift in Sources */,
 				3F84DE741AF805BE0003152A /* TuttiAnnotation.swift in Sources */,
+				3F5F9B001AF85F820033C97E /* TuttiFace.swift in Sources */,
 				3F84DE7A1AF8239A0003152A /* TuttiHistory.swift in Sources */,
 				3FBF938B1AF17BD100E80678 /* AppDelegate.swift in Sources */,
 				3F84DE781AF80EF80003152A /* Map.swift in Sources */,
-				3FBF938D1AF17BD100E80678 /* Tutti.swift in Sources */,
+				3FBF938D1AF17BD100E80678 /* TuttiFirst.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
