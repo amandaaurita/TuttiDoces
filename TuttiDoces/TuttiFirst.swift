@@ -58,7 +58,7 @@ class TuttiFirst: UIViewController, UIAlertViewDelegate {
         var cel: String = "+55 21 987306920"
         var tel: String = "5521987306920"
         
-        var alert = UIAlertController(title: cel, message: "Talk with TuttiDoces", preferredStyle: UIAlertControllerStyle.Alert)
+        var alert = UIAlertController(title: cel, message: "Talk to TuttiDoces", preferredStyle: UIAlertControllerStyle.Alert)
 
         let callAction = UIAlertAction(title: "Call", style: UIAlertActionStyle.Default, handler: {
             (action) in
